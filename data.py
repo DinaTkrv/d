@@ -1,6 +1,4 @@
-from typing import Dict, List
-
-order_body: dict[str, str | list[str] | int] = {
+order_body = {
     "firstName": "Dina",
     "lastName": "Tokareva",
     "address": "Ekaterinburg, sortirovka",
